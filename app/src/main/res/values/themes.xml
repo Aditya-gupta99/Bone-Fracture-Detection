@@ -12,4 +12,12 @@
         <item name="cornerSize">12sp</item>
     </style>
 
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+    </style>
+
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/round_shape_sheet</item>
+    </style>
+
 </resources>
